@@ -1,0 +1,120 @@
+{
+    "personalInfo": {
+        "name": "Agustin",
+        "title": "FrontEnd Developer",
+        "location": "Buenos Aires-Argentina",
+        "bio": "Lorem Lorem Loreeeeeeem"
+    },
+    "contactInfo": {
+        "email": "rlagustin0@gmail.com",
+        "cv": "https://drive.google.com/file/d/1-n9TQLo97EMlLJlAYtBqC2KA0aDvo5MJ/view?usp=drive_link",
+        "linkedin": "https://www.linkedin.com/in/agustin-ramirez-8a160a196/",
+        "github": "https://github.com/RamirezAgus"
+    },
+    "skills": {
+        "langueges": ["JavaScript", "Typescript"],
+        "frameworks": ["React", "NodeJs", "NextJs"],
+        "tools": ["git", "Postman", "Adobe Photoshop", "Adobe Illustratos", "Figma", "Firebase"]
+    },
+    "projects": [
+        {
+            "id": "1",
+            "title": "MusicScope E-commerce",
+            "description": "MusicScope is a web application that simulates an e-commerce site specialized in the sale of musical instruments. The project is designed to offer a fluid and intuitive experience, allowing users to explore, filter and purchase a wide variety of instruments. With a modern and attractive interface.",
+            "technologies": [
+                "JavaScript",
+                "ReactJs",
+                "React-Bootstrap",
+                "ContextAPI",
+                "Firebase"
+            ],
+            "live_url": "https://music-scope.netlify.app",
+            "code_repo": "https://github.com/RamirezAgus/musicScope-React-Ramirez",
+            "cover": "/assets/musicscope-screen.png"
+        },
+        {
+            "id": "2",
+            "title": "Annette-Trammas",
+            "description": "Annette-Tramas is a web application that simulates an e-commerce specialized in the sale of yarn and decoration items. This project, developed with JavaScript, offers an interactive experience so that users can explore different products, add to cart and make simulated purchases, including a simulation of a payment gateway, making the platform an attractive solution for crafts and decoration enthusiasts.",
+            "technologies": [
+                "Vanilla Javascript",
+                "Bootstrap"
+            ],
+            "live_url": "https://annette-site.netlify.app",
+            "code_repo": "https://github.com/RamirezAgus/Carrito-Annette",
+            "cover": "/assets/annette-screen.png"
+        },
+        {
+            "id": "3",
+            "title": "Caxer S.A. Page",
+            "description": "Caxer web page is a landing page designed to present sales and rental services for medium and high volume printing equipment. This demo website provides a clear overview of the products and solutions available, highlighting their specifications and advantages for different types of customers. With a clean and professional design, it serves as a digital showcase that facilitates contact for inquiries or quotes.",
+            "technologies": [
+                "ReactJs",
+                "Vite",
+                "Leaflet",
+                "TailwindCSS"
+            ],
+            "live_url": "https://www.caxer.com.ar",
+            "code_repo": "https://github.com/RamirezAgus/caxer-page",
+            "cover": "/assets/caxer-screen.png"
+        }
+    ],
+    "education": [
+        {
+            "id": "1",
+            "institution": "Escuela Técnica Raggio",
+            "degree": "Industrial Technician",
+            "description": "",
+            "startDate": "2001",
+            "endDate": "2006"
+        },
+        {
+            "id": "2",
+            "institution": "Escuela Multimedial Davinci",
+            "degree": "Web Designer",
+            "description": "Web page design in html, css and javascript using tools such as Adobe Photoshop, Illustrator and Figma.",
+            "startDate": "2019",
+            "endDate": "2019"
+        },
+        {
+            "id": "3",
+            "institution": "Coderhouse",
+            "degree": "Web Developer JavaScript",
+            "description": "Desarrollo de paginas web utilizando lenguaje Javascript.",
+            "startDate": "2022",
+            "endDate": "2022"
+        },
+        {
+            "id": "4",
+            "institution": "Coderhouse",
+            "degree": "Web Developer ReactJs",
+            "description": "Development of web applications using the ReactJs library.",
+            "startDate": "2022",
+            "endDate": "2022"
+        },
+        {
+            "id": "5",
+            "institution": "Codo a Codo - Agencia de aprendizaje",
+            "degree": "Web Developer Advance ReactJs",
+            "description": "Next step to develop web applications using compatible tools within ReactJs, such as Redux, Firebase, AXIOS.",
+            "startDate": "2023",
+            "endDate": "2023"
+        },
+        {
+            "id": "6",
+            "institution": "Codo a Codo - Agencia de aprendizaje",
+            "degree": "FullStack NodeJs",
+            "description": "Web application development, covering learning both client and server side, using NodeJs as the main engine to create a server and using ExpressJs as a framework.",
+            "startDate": "2023",
+            "endDate": "2023"
+        },
+        {
+            "id": "7",
+            "institution": "self-taught",
+            "degree": "NextJs App Developer",
+            "description": "Learning the ReactJs framework",
+            "startDate": "2024",
+            "endDate": "currently learning"
+        }
+    ]
+}
