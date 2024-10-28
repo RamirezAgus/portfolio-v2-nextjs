@@ -25,7 +25,7 @@ export default async function ProjectPage() {
         <span className="font-extrabold text-primary font-mono">jects🛠️</span>
       </h1>
       <div className="flex flex-col justify-center">
-      <ul className="grid grid-cols-1 gap-4">
+        <ul className="grid grid-cols-1 gap-4">
           {data.projects.map((project) => (
             <Card key={project.title} className="flex flex-col lg:flex-row">
               <Suspense fallback={<ProjectCardSkeleton />}>
