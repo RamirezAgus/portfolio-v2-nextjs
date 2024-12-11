@@ -1,3 +1,14 @@
+## Welcome, this is my personal portfolio
+
+I wanted to develop my second portfolio with the technologies I have recently learned.
+
+- Next.js
+- Typescrypt
+- Tailwind
+- Shadcn
+- Framer Motion
+- V0 / Gemini integration.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
