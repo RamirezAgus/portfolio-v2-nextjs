@@ -10,9 +10,17 @@ import { SendIcon, SendToBack } from "lucide-react";
 
 
 export default function Chat() {
+
   const { messages, input, handleInputChange, handleSubmit, isLoading } =
     useChat({
       api: "api/chat",
+      initialMessages: [
+        {
+          id: "weolcome-message",
+          role: "assistant",
+          content: "Hola! Soy Gemini-kun, tu asistente virtual. ¿En que puedo ayudarte el día de hoy?"
+        }
+      ]
     });
 
   return (

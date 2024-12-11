@@ -10,6 +10,7 @@ import {
   navigationMenuTriggerStyle,
 } from "./navigation-menu";
 import ThemeToogler from "./ThemeToogler";
+import MobileMenu from "./MobileMenu";
 
 export const navigationItems = [
   {
@@ -54,7 +55,7 @@ export function Navigation() {
       </div>
       <div className="flex items-center justify-end md:col-span-3 col-span-6">
         <div className="sm:hidden">
-            {/*<MobileMenu/> */}
+            <MobileMenu/>
         </div>
       </div>
     </nav>

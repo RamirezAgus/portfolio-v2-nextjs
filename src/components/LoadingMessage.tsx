@@ -56,14 +56,6 @@ export function LoadingMessage() {
   );
 }
 
-export function GuestBookLoadingForm() {
-  return (
-    <div className="w-full">
-      <Skeleton className="h-10 rounded-lg w-full" />
-    </div>
-  );
-}
-
 export function ProjectCardSkeleton() {
   return (
     <>

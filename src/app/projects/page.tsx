@@ -9,7 +9,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/card";
-import { ProjectCardSkeleton } from "@/components/Loading";
+import { ProjectCardSkeleton } from "@/components/LoadingMessage";
 import { GitHubLogoIcon, GlobeIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 import Link from "next/link";
