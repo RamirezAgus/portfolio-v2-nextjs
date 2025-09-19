@@ -26,7 +26,9 @@ export default async function ProjectPage() {
       </h1>
       <div className="flex flex-col justify-center">
         <ul className="grid grid-cols-1 gap-4">
-          {data.projects.map((project) => (
+          {data.projects
+          .sort((a, b) => b.id - a.id)
+          .map((project) => (
             <Card key={project.title} className="flex flex-col lg:flex-row">
               <Suspense fallback={<ProjectCardSkeleton />}>
                 <div className="w-full lg:w-1/3 flex justify-center items-center relative group">

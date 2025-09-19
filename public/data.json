@@ -57,6 +57,19 @@
             "live_url": "https://www.caxer.com.ar",
             "code_repo": "https://github.com/RamirezAgus/caxer-page",
             "cover": "/assets/caxer-screen.png"
+        },
+        {
+            "id": "4",
+            "title": "Paraiso Travel Agency",
+            "description": "Paraiso Travel Agency is a web page designed to showcase the services and travel packages offered by the agency. The site features an attractive and user-friendly design, allowing visitors to easily explore various destinations, view detailed information about each package, and contact the agency for bookings or inquiries. With a focus on visual appeal and clear navigation, this landing page aims to attract potential travelers and provide them with all the necessary information to plan their next vacation.",
+            "technologies": [
+                "ReactJs",
+                "Vite",
+                "TailwindCSS"
+            ],
+            "live_url": "https://www.paraisotravelar.com",
+            "code_repo": "https://github.com/RamirezAgus/landing-travel",
+            "cover": "/assets/landing-travel.png"
         }
     ],
     "education": [

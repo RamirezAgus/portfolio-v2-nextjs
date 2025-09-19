@@ -22,6 +22,7 @@ export type Skills = {
 }
 
 export type Projects = {
+    id: number;
     title: string;
     description: string;
     technologies: string[];
