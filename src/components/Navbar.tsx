@@ -13,18 +13,9 @@ import ThemeToogler from "./ThemeToogler";
 import MobileMenu from "./MobileMenu";
 
 export const navigationItems = [
-  {
-    name: "Home",
-    href: "/",
-  },
-  {
-    name: "Projects",
-    href: "/projects",
-  },
-  {
-    name: "Chat",
-    href: "/chat",
-  },
+  { name: "Home", href: "/" },
+  { name: "Projects", href: "/projects" },
+  { name: "Chat", href: "/chat" },
 ];
 
 export function Navigation() {
@@ -35,27 +26,28 @@ export function Navigation() {
       <div className="col-span-6 flex md:col-span-3">
         <ThemeToogler />
       </div>
+
       <div className="hidden sm:flex justify-center items-center col-span-6">
         <NavigationMenu>
           <NavigationMenuList>
             {navigationItems.map((item, index) => (
               <NavigationMenuItem key={index}>
-                <Link href={item.href} legacyBehavior passHref>
-                  <NavigationMenuLink
-                    active={pathname === item.href}
-                    className={navigationMenuTriggerStyle()}
-                  >
-                    {item.name}
-                  </NavigationMenuLink>
-                </Link>
+                <NavigationMenuLink
+                  asChild
+                  active={pathname === item.href}
+                  className={navigationMenuTriggerStyle()}
+                >
+                  <Link href={item.href}>{item.name}</Link>
+                </NavigationMenuLink>
               </NavigationMenuItem>
             ))}
           </NavigationMenuList>
         </NavigationMenu>
       </div>
+
       <div className="flex items-center justify-end md:col-span-3 col-span-6">
         <div className="sm:hidden">
-            <MobileMenu/>
+          <MobileMenu />
         </div>
       </div>
     </nav>
