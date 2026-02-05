@@ -54,7 +54,7 @@
                 "Leaflet",
                 "TailwindCSS"
             ],
-            "live_url": "https://www.caxer.com.ar",
+            "live_url": "https://caxer-page.vercel.app",
             "code_repo": "https://github.com/RamirezAgus/caxer-page",
             "cover": "/assets/caxer-screen.png"
         },
