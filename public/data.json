@@ -67,7 +67,7 @@
                 "Vite",
                 "TailwindCSS"
             ],
-            "live_url": "https://www.paraisotravelar.com",
+            "live_url": "https://landing-travel-wine.vercel.app",
             "code_repo": "https://github.com/RamirezAgus/landing-travel",
             "cover": "/assets/landing-travel.png"
         }
