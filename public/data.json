@@ -70,6 +70,24 @@
             "live_url": "https://landing-travel-wine.vercel.app",
             "code_repo": "https://github.com/RamirezAgus/landing-travel",
             "cover": "/assets/landing-travel.png"
+        },
+        {
+            "id": "5",
+            "title": "Annette-Tramas Ecommerce",
+            "description": "Annette-Tramas Ecommerce is a web application designed to provide a seamless shopping experience for customers looking to purchase products from the Annette-Tramas brand. The site features a modern and responsive design, allowing users to browse products, view detailed descriptions, and complete purchases with ease. With integrated payment processing and inventory management, this e-commerce platform aims to streamline the buying process and enhance customer satisfaction.",
+            "technologies": [
+                "NextJs",
+                "TailwindCSS",
+                "Prisma",
+                "Neon",
+                "Better-Auth",
+                "Shadcn/ui",
+                "Famer-motion",
+                "Zustand"
+            ],
+            "live_url": "https://annette-tramas.vercel.app",
+            "code_repo": "https://github.com/RamirezAgus/ecommerce-temp",
+            "cover": "/assets/annettev2.png"
         }
     ],
     "education": [
